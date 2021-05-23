@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*topbar css*/
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Oswald', sans-serif;
+}
+
+.topheader{
+    background: #f5f5f5;
+   
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.wriper{
+    overflow: hidden;
+}
+.phone{
+    float: left;
+    width: 150px;
+    margin-right: 100px;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+     font-family: 'Work Sans', sans-serif;
+    
+  
+}
+.email{
+    float: left;
+    width: 270px;
+     padding: 15px;
+   border-right: 1px solid #ddd;
+    margin-right: 168px;
+     font-family: 'Work Sans', sans-serif;
+}
+.social{
+    width:200px;
+    float:left;
+    padding: 15px;
+    
+}
+.social a{
+    margin-left:5px;
+    border-right: 1px solid #ddd;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+.social a:hover{
+    color: #ff6c00;
+    transition: .3s;
+}
+
+
+
+
+.downheader{
+    padding: 10px;
+    background: white;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.menu{
+    width: 65%;
+    float: left;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #ff6c00;
+}
+#constraction{
+    background: url(../images/asad.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.coninfo{
+    width: 50%;
+    padding-top: 50px;
+}
+.coninfo h1{
+   color: aliceblue;
+    font-size: 45px;
+}
+.coninfo p{
+   color: aliceblue;
+   font-size:20px;
+   font-family: 'Work Sans', sans-serif;
+}
+.coninfo input{
+   padding: 15px 30px;
+    border: none;
+    outline: none;
+    background: #ff6c00;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+    transition: .4s;
+    margin-bottom: 117px;
+}
+.coninfo input:hover{
+    background: #252525;
+    cursor: pointer;
+}
+#imperdiet{
+    background: white;
+    margin-top: 40px
+}
+.imperdietchild{
+    width: 195px;
+    background: white;padding: 20px;
+    text-align: center;
+   float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+    transition: .3s;
+    
+}
+.imperdietchild:hover{
+  background: #ff6c00;
+    color: white;
+}
+.imperdietchild h3{
+    text-align: center;
+    font-size: 24px;
+    
+}
+.imperdietchild p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 20px;
+}
+.imperdietchild a{
+    text-decoration: none;
+    color: #ff6c00;
+       transition: .3s;
+}
+.imperdietchild:hover a{
+    color: white;
+}
+.imperdietchild:nth-child(2){
+    background: #ff6c00;
+    color: white;
+}
+.imperdietchild:nth-child(2) a{
+    color: white;
+}
+
+.teamimg{
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+}
+.teamimg img{
+    width: 100%;
+}
+.teaminfo h1{
+font-size: 30px;
+
+}
+
+.teaminfo p{
+    text-align: center center;
+    font-size: 18px;
+}
+.list_ul{
+width: 400px;
+    float: left;
+    
+}
+.firstlist{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+.firstlist li a{
+text-decoration: none;
+    color: black;
+}
+ul.firstlist li a:hover {
+    color: #ff6c00;
+    transition: .3s;
+}
+.firstlist li{
+    padding-bottom: 5px;
+}
+.lastlist{
+    float: left;
+    margin-right: 0;
+    list-style: none;
+}
+.lastlist li{
+    padding-bottom: 5px;
+}
+.lastlist li a{
+text-decoration: none;
+    color: black;
+}
+
+
+ul.lastlist li a:hover {
+    color: #ff6c00;
+    transition: .3s;
+}
+.startbtn{
+    float: left;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    background: #ff6c00;
+    color: aliceblue;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .3s;
+    }
+
+.startbtn:hover{
+    background: #222233;
+    cursor: pointer;
+}
+#whychochus{
+    background:linear-gradient(#000000ba,#000000ba), url(..//images/why-choose-us1.jpg);
+        background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:40px 0px;
+    margin-top: 50px;
+
+}
+.whychochus_child{
+    width: 235px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+        float: left;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.whychochus_child:last-child{
+    margin-right: 0;
+}
+.whychochus_child h2{
+margin-bottom: 0;
+}
+.whychochus_child h3{
+margin-top: 0;
+}
+#CONSTRUCTION_TEAM{
+    background: #F5F6F6;
+}
+.CONSTRUCTION_TEAM_info {
+    width: 1000px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.CONSTRUCTION_TEAM_info h1{
+    font-size: 40px;
+        position: relative;
+}
+.CONSTRUCTION_TEAM_info h1:after{
+       position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0px;
+    width: 60px;
+    height: 3px;
+    margin-left: -30px;
+    background-color: #ff6c00;
+}
+
+.CONSTRUCTION_TEAM_info p {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+}
+.CONSTRUCTION_TEAM_img {
+    width: 230px;
+}
+
+.CONSTRUCTION_TEAM_img img {
+    width: 100%;
+}
+
+.contractionteamimginfo {
+    width: 230px;
+}
+.CONSTRUCTION_TEAM_child {
+    margin-right: 20px;
+    float: left;
+    width: 229px;
+}
+
+.CONSTRUCTION_TEAM_child:last-child {
+    margin-right: 0;
+}
+.prichingwriper {
+    overflow: hidden;
+    background: #FCFCFC;
+}
+
+.prichingchild {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.prichingsinglechild {
+    width: 243px;
+    padding: 30px;
+    border: 1px solid #E7E7E7;
+    float: left;
+    margin-right: 40px;
+}
+.prichingsinglechild:last-child {
+    margin-right: 0;
+}
+
+.prichingsinglechild h2 {
+    font-size: 30px;
+}
+
+.prichingsinglechild h1 {
+    font-size: 40px;
+    margin-bottom: 21px;
+    margin-top: -21px;
+}
+
+.prichingsinglechild h1 span {
+    font-size: 23px;
+}
+
+.prichingsinglechild ul {
+    list-style: none;
+    margin-left: -25px;
+    margin-top: 9px;
+    line-height: 33px;
+}
+
+.prichingsinglechild ul li {
+    font-family: sans-serif;
+    color: #57647C;
+    font-weight: bold;
+}
+
+button#prichingbtn {
+    outline: none;
+    border: none;
+    padding: 13px 32px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    background: #ff6c00;
+    color: white;
+    transition: .3s;
+    border-radius: 5px;
+}
+button#prichingbtn:hover {
+    background: #000000c2;
+    cursor: pointer;
+    color: white;
+}
+.teamimg_wriper {
+    overflow: hidden;
+}
+
+.meet_team_single_child {
+    width: 227px;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+.meet_team_single_child img {
+    width: 100%;
+}
+
+.meet_team_single_child h3 {
+    font-size: 23px;
+    margin-bottom: -14px;
+}
+
+.meet_team_single_child p {
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #635d5d;
+}
+.meet_team_single_child:last-child {
+    margin-right: 0;
+}
+.meet_team_img {
+    position: relative;
+}
+
+.team_img_social {
+    position: absolute;
+    width: 200px;
+    top: 150px;
+    left: 18px;
+    text-align: center;
+}
+
+.team_img_social a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 6px 6px;
+    background: red;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
